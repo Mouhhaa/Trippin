@@ -31,10 +31,6 @@ const userSchema = new Schema(
       type: Date,
       required: true,
     },
-    potatoes:{
-      type:String,
-      required: false,
-    }
   },
   { timestamps: true }
 );
