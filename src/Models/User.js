@@ -23,6 +23,10 @@ const userSchema = new Schema(
       type: String,
       required: true,
     },
+    Nothing: {
+      type: String,
+      required: false,
+    },
     Occupation: {
       type: String,
       required: true,
